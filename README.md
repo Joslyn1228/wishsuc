@@ -95,7 +95,7 @@ npm run lint
 **步骤：**
 1. 在仓库 Settings → Pages 中，选择 "GitHub Actions" 作为源
 2. 推送代码到 main 分支，会自动触发部署
-3. 部署完成后访问：`https://joslyn1228.github.io/4/`
+3. 部署完成后访问：`https://joslyn1228.github.io/5/`
 
 详细说明请查看 [GITHUB_PAGES_DEPLOY.md](./GITHUB_PAGES_DEPLOY.md)
 
