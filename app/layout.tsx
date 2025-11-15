@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description: '欢迎访问我的个人主页，了解我的项目、技能和联系方式。',
   keywords: ['个人主页', '作品集', 'Portfolio', 'Web开发'],
   authors: [{ name: 'Joslyn' }],
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
     title: '个人主页 | Personal Portfolio',
     description: '欢迎访问我的个人主页，了解我的项目、技能和联系方式。',
@@ -35,9 +38,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
       <body className={inter.className}>
         <Navbar />
         <main>{children}</main>
