@@ -7,6 +7,8 @@ export default function Projects() {
   const projectsRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
+    if (typeof window === 'undefined' || !('IntersectionObserver' in window)) return
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -28,6 +30,7 @@ export default function Projects() {
         const elements = projectsRef.current.querySelectorAll('.animate-on-scroll')
         elements.forEach((el) => observer.unobserve(el))
       }
+      observer.disconnect()
     }
   }, [])
 
