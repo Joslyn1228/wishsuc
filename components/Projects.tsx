@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 import data from '@/lib/data'
 
 // 从配置中获取basePath，用于处理项目链接
-const basePath = '/successplz'
+const basePath = '/wishsuc'
 
 export default function Projects() {
   const projectsRef = useRef<HTMLElement>(null)

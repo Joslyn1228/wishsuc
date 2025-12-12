@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import data from '@/lib/data'
 
 // 从配置中获取basePath，用于处理图片路径
-const basePath = '/successplz'
+const basePath = '/wishsuc'
 
 export default function Photography() {
   const photographyRef = useRef<HTMLElement>(null)
