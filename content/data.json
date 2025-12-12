@@ -12,30 +12,30 @@
     "title": "关于我",
     "description": "热爱阅读、游泳、写作、电子游戏。正在学习数字经济。",
     "skills": [
-      "React / Next.js",
-      "TypeScript",
-      "Node.js",
-      "Tailwind CSS",
-      "Git / GitHub"
+      "Python",
+      "Java",
+      "SQL",
+      "Git",
+      "VibeCoding"
     ]
   },
   "projects": [
     {
       "id": 1,
-      "title": "项目一",
-      "description": "这是一个示例项目，展示了我的开发技能和设计能力。",
-      "technologies": ["React", "TypeScript", "Tailwind CSS"],
+      "title": "时区转换器",
+      "description": "这是一个支持中英双语的时区转换器，输入全球主要城市即可查看当地时间以及与北京时间的时差。",
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "image": "/images/project-1.jpg",
-      "link": "https://github.com",
+      "link": "https://joslyn1228.github.io/Joslyn/时区计算2.0.html",
       "github": "https://github.com"
     },
     {
       "id": 2,
-      "title": "项目二",
-      "description": "另一个优秀的项目示例，体现了我的全栈开发能力。",
-      "technologies": ["Next.js", "Node.js", "MongoDB"],
+      "title": "零工经济业务分析数据库设计与实现",
+      "description": "这是一个针对零工经济业务分析的数据库设计与实现项目，包含了完整的数据库模型设计和数据分析功能。",
+      "technologies": ["数据库", "SQL", "数据分析"],
       "image": "/images/project-2.jpg",
-      "link": "https://github.com",
+      "link": "/documents/零工经济数据库设计与实现.docx",
       "github": "https://github.com"
     },
     {
@@ -55,6 +55,138 @@
     "github": "https://github.com/Joslyn1228",
     "Wechat": "JoslynLiu1228",
     "X(Twitter)": "https://twitter.com/JoslynLiu28"
+  },
+  "education": {
+    "title": "教育经历",
+    "items": [
+      {
+        "id": 1,
+        "institution": "武汉理工大学",
+        "degree": "本科",
+        "major": "智能经济",
+        "duration": "2024 - 2028",
+        "description": "主修课程：微观经济学、宏观经济学、统计学、Python程序设计等"
+      },
+      {
+        "id": 2,
+        "institution": "淄博实验中学",
+        "degree": "高中",
+        "major": "重点高中",
+        "duration": "2021 - 2024",
+        "description": "在校期间成绩优秀，加入学生会、模拟联合国等组织，参与了多个项目"
+      }
+    ]
+  },
+  "awards": {
+    "title": "荣誉奖项",
+    "items": [
+      {
+        "id": 1,
+        "name": "优秀学生奖学金",
+        "institution": "武汉理工大学",
+        "year": "2024年",
+        "description": "综合成绩排名前10%"
+      },
+      {
+        "id": 2,
+        "name": "全国大学生英语竞赛三等奖",
+        "institution": "湖北省教育厅",
+        "year": "2024年",
+        "description": "听力、写作、口语能力均排名前10%"
+      }
+    ]
+  },
+  "hobbies": {
+    "title": "兴趣爱好",
+    "items": [
+      {
+        "id": 1,
+        "name": "阅读",
+        "description": "喜欢阅读文学、历史、经济类书籍，尤其喜欢雨果的作品"
+      },
+      {
+        "id": 2,
+        "name": "游泳",
+        "description": "每周坚持游泳3-4次，擅长自由泳和蛙泳"
+      },
+      {
+        "id": 3,
+        "name": "写作",
+        "description": "定期在个人博客上发表文章，内容涵盖生活感悟和学习心得"
+      },
+      {
+        "id": 4,
+        "name": "电子游戏",
+        "description": "喜欢玩策略类和冒险类游戏，如《最终幻想》系列"
+      },
+      {
+        "id": 5,
+        "name": "摄影",
+        "description": "热爱摄影，喜欢记录旅行中的美景和生活中的点滴"
+      }
+    ]
+  },
+  "photography": {
+    "title": "摄影作品集",
+    "description": "记录旅行中的美景和生活中的点滴",
+    "modules": [
+      {
+        "id": 1,
+        "name": "旅行摄影",
+        "description": "记录旅途中的美景和人文风情",
+        "works": [
+          {
+            "id": 1,
+            "title": "玉龙雪山",
+            "description": "在云南玉龙雪山脚下拍摄，雪山巍峨壮观，云雾缭绕",
+            "image": "/images/photography/travel/photo-1.jpg",
+            "tags": ["云南", "玉龙雪山", "自然风光"]
+          },
+          {
+            "id": 2,
+            "title": "青海湖",
+            "description": "在青海湖拍摄，湖面如镜，倒映着蓝天白云，美不胜收",
+            "image": "/images/photography/travel/photo-2.jpg",
+            "tags": ["青海", "青海湖", "自然风光"]
+          },
+          {
+            "id": 3,
+            "title": "丹霞",
+            "description": "在甘肃拍摄的丹霞地貌，色彩斑斓，犹如大自然的调色板",
+            "image": "/images/photography/travel/photo-3.jpg",
+            "tags": ["甘肃", "丹霞", "自然风光"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "生活摄影",
+        "description": "记录日常生活中的美好瞬间",
+        "works": [
+          {
+            "id": 1,
+            "title": "夜鹭",
+            "description": "在武汉南湖拍摄的夜鹭，姿态优雅，羽毛洁白",
+            "image": "/images/photography/life/photo-1.jpg",
+            "tags": ["武汉南湖", "夜鹭", "鸟类摄影"]
+          },
+          {
+            "id": 2,
+            "title": "《日落大道》",
+            "description": "在琴台大剧院观看的《日落大道》音乐剧，舞台效果震撼",
+            "image": "/images/photography/life/photo-2.jpg",
+            "tags": ["琴台大剧院", "日落大道", "音乐剧"]
+          },
+          {
+            "id": 3,
+            "title": "《越人歌》",
+            "description": "在金秋杯合唱比赛中演唱的《越人歌》，团队合作默契",
+            "image": "/images/photography/life/photo-3.jpg",
+            "tags": ["金秋杯", "越人歌", "合唱比赛"]
+          }
+        ]
+      }
+    ]
   }
 }
 
