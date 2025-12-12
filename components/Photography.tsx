@@ -40,7 +40,19 @@ export default function Photography() {
   }, [])
 
   const toggleModule = (moduleId: number) => {
-    setSelectedModule(selectedModule === moduleId ? null : moduleId)
+    const newSelectedModule = selectedModule === moduleId ? null : moduleId
+    setSelectedModule(newSelectedModule)
+    
+    // 预加载当前模块的所有图片
+    if (newSelectedModule) {
+      const module = data.photography.modules.find(m => m.id === newSelectedModule)
+      if (module) {
+        module.works.forEach(work => {
+          const img = new Image()
+          img.src = basePath + work.image
+        })
+      }
+    }
   }
 
   const openImageViewer = (src: string, title: string) => {
