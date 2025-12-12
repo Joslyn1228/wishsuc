@@ -111,6 +111,7 @@ export default function Photography() {
           src={basePath + work.image} 
           alt={work.title} 
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          loading="lazy"
           onError={(e) => {
             const target = e.target as HTMLImageElement
             target.src = 'https://via.placeholder.com/400x300?text=摄影作品'
