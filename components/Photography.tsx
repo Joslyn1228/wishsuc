@@ -116,18 +116,31 @@ export default function Photography() {
                   {module.works.map((work) => (
                     <div key={work.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                       <div 
-                        className="h-48 bg-gray-200 flex items-center justify-center cursor-pointer"
+                        className="h-48 bg-gray-200 flex items-center justify-center cursor-pointer relative overflow-hidden"
                         onDoubleClick={() => openImageViewer(work.image, work.title)}
                       >
+                        {/* Blurred placeholder */}
+                        <div className="absolute inset-0 bg-gray-300 flex items-center justify-center">
+                          <svg className="w-16 h-16 text-gray-400 animate-pulse" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
+                          </svg>
+                        </div>
+                        
+                        {/* Actual image with fade-in effect */}
                         <img 
           src={basePath + work.image} 
           alt={work.title} 
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-full object-cover transition-all duration-500 hover:scale-105 opacity-0"
           loading="lazy"
+          onLoad={(e) => {
+            const target = e.target as HTMLImageElement
+            target.classList.remove('opacity-0')
+          }}
           onError={(e) => {
             const target = e.target as HTMLImageElement
             target.src = 'https://via.placeholder.com/400x300?text=摄影作品'
             target.alt = '摄影作品占位图'
+            target.classList.remove('opacity-0')
           }}
         />
                       </div>
