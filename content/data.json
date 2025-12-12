@@ -40,11 +40,11 @@
     },
     {
       "id": 3,
-      "title": "项目三",
-      "description": "第三个项目示例，展示了我在移动端和响应式设计方面的经验。",
-      "technologies": ["React Native", "Firebase", "TypeScript"],
+      "title": "像素钓鱼游戏",
+      "description": "这是一个简易的像素风格钓鱼游戏，具有流畅的游戏体验和精美的像素艺术风格。",
+      "technologies": ["游戏开发", "像素艺术", "JavaScript"],
       "image": "/images/project-3.jpg",
-      "link": "https://github.com",
+      "link": "https://www.lingguang.com/share/FLASH_APP-4cdb900a-e92f-42c4-bd9c-15ac064d275307",
       "github": "https://github.com"
     }
   ],
