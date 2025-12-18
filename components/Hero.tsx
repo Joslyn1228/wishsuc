@@ -81,7 +81,7 @@ export default function Hero() {
           </button>
           
           <a
-            href="/admin"
+            href="/wishsuc/admin"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-gray-800 text-white rounded-lg font-semibold hover:bg-gray-900 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
