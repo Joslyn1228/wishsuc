@@ -79,6 +79,16 @@ export default function Hero() {
           >
             {data.hero.cta.secondary}
           </button>
+          
+          <a
+            href="/admin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-gray-800 text-white rounded-lg font-semibold hover:bg-gray-900 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+            aria-label="管理端"
+          >
+            管理端
+          </a>
         </div>
       </div>
     </section>
